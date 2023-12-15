@@ -3,8 +3,8 @@ import os
 
 def run_figlet_command():
     text_to_display = "bitcoin mining program..."
-    image = "bitcoin.png"
-    figlet_command = f"jp2a --colors --height=28 {image} && figlet {text_to_display}"
+    image = "bitcoin.jpg"
+    figlet_command = f"jp2a --height=28 {image} && figlet {text_to_display}"
     
     try:
         os.system(figlet_command)
